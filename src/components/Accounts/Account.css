@@ -1,0 +1,43 @@
+.account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 100px;
+  line-height: 1px;
+}
+
+.account__info {
+    display: flex;
+    align-items: center;
+
+    flex: 1;
+    max-height: 60px;
+   
+}
+
+.account__info .nickname {
+    display: flex;
+    flex-direction: column;
+    margin-top: -5px;
+    margin-left: 8px;
+    
+}
+
+.nickname h4 {
+    font-size: 14px;
+    color: #333;
+}
+.nickname p {
+    padding-bottom: 10px;
+    font-size: 12px;
+    margin-top: 1px;
+    color: rgb(168, 151, 151);
+}
+
+.account__follow {
+    color: rgb(29, 166, 247);
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+}
+

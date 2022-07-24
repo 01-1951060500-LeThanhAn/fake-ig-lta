@@ -1,0 +1,114 @@
+.profile {
+    margin-top: 90px;
+}
+
+.profile__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 15px;
+}
+
+.profile__main  .profile__avatar img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile__main .profile__info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     margin-left: 80px;
+}
+
+.profile__info .profile__first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.profile__edit__box {
+    display: flex;
+    align-items: center;
+}
+.profile__info .profile__first h2 {
+    font-weight: 400;
+    margin-left: 0px;
+}
+
+.profile__info .profile__first button {
+   margin-left: 15px;
+}
+
+.profile__info .profile__first .profile__edit {
+    margin-left: 15px;
+ }
+
+.profile__info .profile__follow {
+    display: flex;
+    
+    align-items: center;
+}
+
+.profile__follow p:not(:first-child) {
+    margin-left: 20px;
+}
+
+.profile__follow span {
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+    .profile {
+        padding: 0 50px;
+    }
+  
+}
+
+@media only screen and (max-width: 600px) {
+    .profile {
+        padding: 0 50px;
+        margin-top: 100px;
+    }
+    .profile__main {
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       flex-direction: column;
+        padding-right: 60px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .profile {
+        padding: 0 30px;
+        margin-top: 100px;
+        overflow-x: hidden;
+    }
+    .profile__main  .profile__avatar {
+        padding-left: 50px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .profile__info .profile__first {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .profile__user {
+        padding-left: 20px;
+    }
+
+    .profile__info .profile__follow {
+        display: flex;
+        padding: 0 20px;
+        align-items: center;
+       
+    }
+    
+}

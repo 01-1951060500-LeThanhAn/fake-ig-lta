@@ -1,0 +1,13 @@
+
+.saved__post__item {
+   width: 500px;
+   margin: 20px auto;
+   border: 1px solid #dbdbdb;
+}
+
+@media only screen and (max-width: 375px) {
+   .saved__post__item {
+      width: 100%;
+     
+   }
+}

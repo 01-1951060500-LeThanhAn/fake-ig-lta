@@ -1,0 +1,23 @@
+.menu {
+    padding: 20px ;
+    background-color: white;
+}
+
+.menu__item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu__item:not(:first-child) {
+     margin: 15px 0;
+}
+
+.menu__item .menu__title {
+    margin-left: 10px;
+}
+
+a {
+    color: #333;
+    line-height: 40px;
+}

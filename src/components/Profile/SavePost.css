@@ -1,0 +1,33 @@
+ .favourite__slide {
+    display: flex;
+    align-items: center;
+    
+ }
+ .favourite__slide__item--image {
+    width: 330px;
+    height: 280px;
+    position: relative;
+   
+ }
+
+ .favourite__slide__item--image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+ }
+
+ .favourite__slide__item--delete {
+   font-size: 30px;
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   cursor: pointer;
+   color: white;
+   visibility: hidden;
+ }
+
+ .favourite__slide__item--image:hover .favourite__slide__item--delete {
+   visibility: visible;
+ }
+

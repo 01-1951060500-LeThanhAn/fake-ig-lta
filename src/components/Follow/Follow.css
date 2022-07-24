@@ -1,0 +1,21 @@
+
+.follow {
+    padding-right: 100px;
+    margin-top: 40px;
+}
+.follow .follow__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.follow__inner h4 {
+    color: #958E8E;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.follow__inner p {
+    font-size: 13px;
+    font-weight: 600;
+}

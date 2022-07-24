@@ -1,0 +1,30 @@
+.profile__admin .profile__item {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+  
+}
+
+.profile__item .profile__displayname img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.profile__item .profile__title {
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+
+.profile__title p {
+    font-weight: bold;
+    color: #333;
+}
+
+.profile__title span {
+    font-size: 13px;
+    color: rgb(168, 151, 151);
+}
